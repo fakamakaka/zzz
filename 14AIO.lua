@@ -18,6 +18,7 @@ local SupportChampion = {
     ["Zilean"]      =       true,
     ["Yasuo"]       =       true,
     ["Orianna"]     =       true,
+    ["Nocturne"]    =       true,
     ["Leona"]       =       true
 
 }
@@ -36,12 +37,12 @@ local function AutoUpdate(pth, nm, vs)
         Lua = {
             Path = pth,
             Name = nm..".lua",
-            Url = "https://raw.githubusercontent.com/samuelchow1997/gos/master/"..nm..".lua"
+            Url = "https://raw.githubusercontent.com/fakamakaka/zzz/master/"..nm..".lua"
         },
         Version = {
             Path = pth,
             Name = nm..".version",
-            Url = "https://raw.githubusercontent.com/samuelchow1997/gos/master/"..nm..".version"
+            Url = "https://raw.githubusercontent.com/fakamakaka/zzz/master/"..nm..".version"
         }
     }
 
